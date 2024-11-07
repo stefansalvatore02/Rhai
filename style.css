@@ -14,7 +14,7 @@ header {
 }
 
 .chamada {
-    background: #ffcd8a61;
+    background: gray;
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
@@ -31,7 +31,7 @@ h1 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 img {
