@@ -1,0 +1,80 @@
+body {
+    background: lightgray;
+    color: black;
+    margin: 0px;
+    font-family: "Itim", cursive;
+    margin-bottom: 112px;
+}
+
+header {
+    border-bottom: solid 5px #dac5a9;
+    padding: 20PX;
+    font-size: 35px;
+
+}
+
+.chamada {
+    background: #ffcd8a61;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+
+}
+
+h1 {
+    font-size: 52px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 500px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 2px;
+}
+
+.categoria-link {
+    display: flex;
+    overflow-x: auto;
+    gap: 2px;
+}
+
+.categoria {
+    padding-left: 0px;
+   padding-right: 0px;
+   margin-top: 28px;
+}
+
+.categoria-video img {
+    opacity: 0,2;
+    
+}
+
+.categoria-video img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(113, 92, 64);
+}
+
+.categoria-link img {
+    opacity: 0,2;
+}
+
+.categoria-link img:hover {
+    opacity: 1,0;
+    border: 3px solid rgb(113, 92, 64);
+}
+
+.categoria h2 {
+    color:  #dac5a9;
+}
