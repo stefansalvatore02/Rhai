@@ -38,16 +38,12 @@ img {
     height: 500px;
 }
 
-.categoria-video {
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 2px;
 }
 
-.categoria-link {
-    display: flex;
-    overflow-x: auto;
-    gap: 2px;
 }
 
 .categoria {
@@ -63,17 +59,9 @@ img {
 
 .categoria-video img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(113, 92, 64);
+    border: 3px solid black;
 }
 
-.categoria-link img {
-    opacity: 0,2;
-}
-
-.categoria-link img:hover {
-    opacity: 1,0;
-    border: 3px solid rgb(113, 92, 64);
-}
 
 .categoria h2 {
     color:  #dac5a9;
