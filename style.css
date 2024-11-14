@@ -32,6 +32,9 @@ h1 {
 p {
     font-size: 35px;
 }
+img {
+    height: 500px;
+}
 
 .categoria-videos {
     display: flex;
