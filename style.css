@@ -1,68 +1,60 @@
 body {
-    background: lightgray;
-    color: black;
+    color: white;
+    background: black;
     margin: 0px;
-    font-family: "Itim", cursive;
-    margin-bottom: 112px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 5px #dac5a9;
-    padding: 20PX;
-    font-size: 35px;
-
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
 }
 
 .chamada {
-    background: gray;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
 }
 
 .chamada-texto {
-    margin-right: 10%;
-
+    margin-right: 5%;
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 40px;
 }
 
 p {
-    font-size: 35px;
-}
-
-img {
-    height: 500px;
+    font-size: 20px;
 }
 
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    gap: 2px;
-}
-
+    gap: 10px;
 }
 
 .categoria {
-    padding-left: 0px;
-   padding-right: 0px;
-   margin-top: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-.categoria-video img {
-    opacity: 0,2;
-    
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
 }
 
-.categoria-video img:hover {
+.categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid black;
+    border: 3px solid green;
 }
 
-
-h2 {
-    color:  #dac5a9;
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
